@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="/css/style.css">
+        {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> --}}
+    </head>
+    <body>
+        {{>header}}              
+        <div class="cf">Get your weather here</div>
+        <div class="cf">
+            <form id="weatherForm"> 
+                <input type="text" name="address" id="address">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="cf"></div>
+        {{>footer}}
+        <p id="errorMessage"></p>
+        <p id="forecastMessage"></p>
+        <script src="/js/index.js"></script>
+    </body>
+</html>

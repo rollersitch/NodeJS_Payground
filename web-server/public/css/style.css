@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;   
+    min-height: 100vh;
+}
+
+h4 {
+    color: red
+}
+
+img {
+    width: 250px;
+}
